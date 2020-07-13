@@ -1,0 +1,22 @@
+*
+{
+    box-sizing: border-box;
+}
+.footer
+{
+    background-color: rgb(212, 214, 214);
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+
+}
+
+.header
+{
+    padding:0;
+    margin: 0;
+}

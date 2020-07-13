@@ -1,0 +1,54 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.divclass
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.input
+{
+    width: 100%;
+    height: 27px;
+    font-size: 10px;
+    padding-left: 5px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid gray;
+    height: 25px;
+    background-color: ghostwhite;
+    margin-top: 2px;
+    color: rgb(65, 65, 65);
+    
+}
+
+.input:focus
+{
+    opacity: 1;
+}
+
+.title
+{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    color:black;
+    letter-spacing: 1px;
+    
+    
+}

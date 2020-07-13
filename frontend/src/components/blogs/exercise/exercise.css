@@ -1,0 +1,58 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.exercise
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    min-width: 30%;
+    padding: 22px 30px;
+    background-color: rgb(228, 226, 226);
+    margin: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.exerciseHeading
+{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(228, 226, 226);
+    padding-bottom: 8px;
+    height: 12%;
+
+}
+
+.exerciseSummary
+{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(228, 226, 226);
+    padding-top: 10px;
+    height: 18%;
+    font-family: Sacramento;
+    font-weight: 400;
+    color: black;
+}
+
+.exerciseImage
+{
+    height: 70%;
+    vertical-align: auto;
+
+}
+
+.exerciseImage:hover
+{
+    cursor: pointer;
+}
+
+a
+{
+    font-weight: 800;
+
+}

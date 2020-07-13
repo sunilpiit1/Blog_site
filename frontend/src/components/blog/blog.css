@@ -1,0 +1,109 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.outerBoxBlog
+{
+    width: 100%;
+    height: 100vh;
+    margin-top: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.innerBoxBlog
+{
+    width:40%;
+    margin-top:40px;
+    height: 500px;
+    background-color: rgb(228, 226, 226);
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 6px;
+}
+
+.blogHeading
+{
+    height: 13%;
+    display: flex;
+    padding-top:10px;
+    
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.blogImage
+{
+    height: 60%;
+}
+
+.blogSummary
+{
+    height: 32%;
+    padding-top: 10px;
+    font-family: Sacramento;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.position1
+{
+   position: absolute;
+   left: 760px;
+   font-weight: bold;
+   height: 30px;
+   top: 540px;
+   
+}
+
+.position2
+{
+    position: absolute;
+    left: 845px;
+    font-weight: bold;
+    height: 30px;
+    top: 540px;
+}
+
+.material-icons
+{
+    transition: all 0.4s;
+}
+
+.likeBefore{
+
+    color:white;
+   font-size: 30px;
+   position: absolute;
+   top:540px;
+   left:780px;
+   color: darkslategray;
+   font-weight: 100;
+   cursor: pointer; 
+
+}
+
+.likeAfter{
+
+    color:red;
+   font-size: 30px;
+   position: absolute;
+   top:540px;
+   left:780px;
+   
+
+}
+
+.statement{
+
+    position: absolute;
+    top: 540px;
+    left: 825px;
+    font-weight: bold;
+}

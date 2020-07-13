@@ -1,0 +1,60 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.bigbox
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background : url('../../photos/michele-tardivo-pAWh4j2ZcmI-unsplash.jpg') center ;
+    background-size:cover;
+}
+
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    height:400px;
+    margin-top: 110px;
+    margin-bottom: 150px;
+    border-radius: 6px;
+    background-color: rgb(104, 104, 104);
+    opacity: 0.4;
+    margin-right: 8%;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    position: absolute;
+    top:120px;
+    left: 61.7%;
+    align-items: center;
+    
+
+
+}
+
+.heading
+{
+    margin-bottom: 58px;
+    color: black;
+}
+
+.btn-primary
+{
+    background-color: rgb(54, 54, 54);
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
